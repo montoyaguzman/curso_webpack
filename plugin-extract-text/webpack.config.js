@@ -20,6 +20,6 @@ module.exports = {
   },
   plugins: [
     // Plugins
-    new extractTextPlugin("css/styles.css")
+    new extractTextPlugin("css/[name].css")
   ]
 }
