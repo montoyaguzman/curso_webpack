@@ -1,0 +1,9 @@
+body {
+  background-color: lightblue;
+  display: flex;
+  align-items: center; /* alineacion vertical */
+  justify-content: center; /* alineacion horizontal */
+  min-height: 100vh;
+  margin: 0;
+  font-size: 40px;
+}

@@ -9,7 +9,8 @@
     "build:local": "webpack --mode=development",
     "build:external": "webpack --config ./external/webpack.config.js --mode=development",
     "build:css": "webpack --config ./css-style-loader/webpack.config.js --mode=development",
-    "build:extract:css": "webpack --config ./plugin-extract-text/webpack.config.js --mode=development"
+    "build:extract:css": "webpack --config ./plugin-extract-text/webpack.config.js --mode=development",
+    "build:multy": "webpack --config ./multy-entry/webpack.config.js --mode=development"
   },
   "author": "montoyaguzman",
   "license": "MIT",
