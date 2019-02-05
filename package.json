@@ -10,7 +10,9 @@
     "build:external": "webpack --config ./external/webpack.config.js --mode=development",
     "build:css": "webpack --config ./css-style-loader/webpack.config.js --mode=development",
     "build:extract:css": "webpack --config ./plugin-extract-text/webpack.config.js --mode=development",
-    "build:multy": "webpack --config ./multy-entry/webpack.config.js --mode=development"
+    "build:multy": "webpack --config ./multy-entry/webpack.config.js --mode=development",
+    "build:dev": "webpack --config ./webpack-dev-server/webpack.config.js --mode=development --watch",
+    "build:dev:server": "webpack-dev-server --config ./webpack-dev-server/webpack.config.js --mode=development"
   },
   "author": "montoyaguzman",
   "license": "MIT",
@@ -19,6 +21,7 @@
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
     "styles-loader": "^1.0.0",
     "webpack": "^4.29.0",
-    "webpack-cli": "^3.2.3"
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.1.14"
   }
 }
